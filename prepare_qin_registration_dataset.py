@@ -11,8 +11,8 @@ from typing import Dict, List, Optional, Tuple
 
 import SimpleITK as sitk
 
-SOURCE_ROOT = Path("/Users/rifqiab2708/Documents/img_regist/qin_prostate_repeatability")
-DATASET_ROOT = Path("/Users/rifqiab2708/Documents/img_regist/dataset")
+SOURCE_ROOT = Path("/workspaces/img_regist/qin_prostate_repeatability")
+DATASET_ROOT = Path("/workspaces/img_regist/dataset")
 RAW_LINK = DATASET_ROOT / "raw" / "qin_prostate_repeatability"
 
 INCLUDE_KEYWORDS = ["T2", "T2W", "TSE", "AX T2"]
