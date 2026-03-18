@@ -14,6 +14,7 @@ env/
 
 # Large/raw medical imaging data
 qin_prostate_repeatability/
+qin_prostate_repeatability.zip
 
 # Generated dataset outputs and derived files
 dataset/
@@ -26,6 +27,7 @@ dataset/
 *.mhd
 *.nrrd
 *.tfm
+*.zip
 
 # Optional logs/reports
 *.log
