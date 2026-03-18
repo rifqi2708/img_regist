@@ -1,0 +1,31 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter/IDE/system files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Large/raw medical imaging data
+qin_prostate_repeatability/
+
+# Generated dataset outputs and derived files
+dataset/
+
+# Large medical image formats (safety net)
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.tfm
+
+# Optional logs/reports
+*.log
